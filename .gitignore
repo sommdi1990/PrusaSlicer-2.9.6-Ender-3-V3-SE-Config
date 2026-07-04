@@ -1,0 +1,18 @@
+# Generated G-code and sliced outputs
+*.gcode
+*.bgcode
+*.ufp
+
+# Local PrusaSlicer caches/backups
+backup-*/
+*.bak
+*.tmp
+
+# Model files are intentionally not committed by default
+*.stl
+*.obj
+*.3mf
+
+# Python cache
+__pycache__/
+*.pyc
