@@ -14,6 +14,7 @@ This repository contains printer, filament, and print presets tuned for PLA/PLA+
 
 - `Soroush PLA - 1.75mm`
 - `Soroush PLA+ - 1.75mm`
+- `Soroush PLA+ - eSUN 1.75mm` — tuned for eSUN PLA+ spool
 - `Soroush Silk PLA - 1.75mm`
 - `Soroush PETG - 1.75mm`
 
@@ -55,7 +56,7 @@ The script detects both common PrusaSlicer config locations:
 For the Horn_L mask model, start with:
 
 - Printer: `Creality Ender 3 V3 SE - Stock Marlin2 - 0.4 nozzle`
-- Filament: `Soroush PLA - 1.75mm` or `Soroush PLA+ - 1.75mm`
+- Filament: `Soroush PLA+ - eSUN 1.75mm` for the eSUN PLA+ spool, or `Soroush PLA+ - 1.75mm` for a generic PLA+ baseline
 - Print: `Soroush PLA - Cosplay Mask Organic Supports`
 - Supports: organic, build plate only
 - Layer height: 0.20 mm
@@ -75,3 +76,13 @@ Run these once for your exact spool:
 5. Small support-removal test
 
 The presets are a strong baseline, not a substitute for spool-specific calibration.
+
+## eSUN PLA+ spool
+
+For the eSUN PLA+ spool, import the bundle and select:
+
+```text
+Filament: Soroush PLA+ - eSUN 1.75mm
+```
+
+See `docs/ESUN_PLA_PLUS.md` for temperature and support tuning notes.

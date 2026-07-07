@@ -8,3 +8,9 @@
 - Added Ultra Quality, Quality, Cosplay Mask Organic Supports, Fast Draft, and Mechanical Strong print presets.
 - Added importable config bundle and Horn_L/mask direct config snapshot.
 - Added Linux install script and validation script.
+
+## 2026-07-07
+
+- Added `Soroush PLA+ - eSUN 1.75mm` filament preset.
+- Added filament-only import file for the eSUN PLA+ spool.
+- Added eSUN PLA+ guide and updated the default bundle filament selection.

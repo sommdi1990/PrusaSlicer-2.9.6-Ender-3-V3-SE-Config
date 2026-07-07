@@ -26,10 +26,12 @@ Filament: Soroush PLA - 1.75mm
 Print:    Soroush PLA - Quality
 ```
 
-For Horn_L / mask / cosplay:
+For Horn_L / mask / cosplay with the eSUN PLA+ spool:
 
 ```text
-Print: Soroush PLA - Cosplay Mask Organic Supports
+Printer:  Creality Ender 3 V3 SE - Stock Marlin2 - 0.4 nozzle
+Filament: Soroush PLA+ - eSUN 1.75mm
+Print:    Soroush PLA - Cosplay Mask Organic Supports
 ```
 
 For quick tests:
