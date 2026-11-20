@@ -1,8 +1,13 @@
-# PrusaSlicer 2.9.6 profiles for Creality Ender 3 V3 SE
+# PrusaSlicer presets for the Ender 3 V3 SE
 
-A curated PrusaSlicer profile set for **Creality Ender 3 V3 SE** with stock **Marlin 2** firmware and a **0.4 mm nozzle**.
+This profile set targets a stock Marlin 2 Ender 3 V3 SE with a 0.4 mm nozzle. Printer, filament and print presets are maintained separately and assembled into distributable INI bundles.
 
-This repository contains printer, filament, and print presets tuned for PLA/PLA+/Silk PLA/PETG on the Ender 3 V3 SE.
+The printer preset describes the machine, while filament presets capture material-specific settings. The Python scripts assemble and validate the profiles. Their checks cover configuration data. Physical results depend on printer and filament calibration.
+
+- [Creality Ender 3 V3 SE - Stock Marlin2 - 0.4 nozzle.ini](profiles/printer/Creality%20Ender%203%20V3%20SE%20-%20Stock%20Marlin2%20-%200.4%20nozzle.ini)
+- [build-bundle.py](scripts/build-bundle.py)
+- [validate-profiles.py](scripts/validate-profiles.py)
+- [CALIBRATION.md](docs/CALIBRATION.md)
 
 ## Presets included
 
@@ -25,31 +30,6 @@ This repository contains printer, filament, and print presets tuned for PLA/PLA+
 - `Soroush PLA - Cosplay Mask Organic Supports` — masks, horns, cosplay models, easy support removal
 - `Soroush PLA - Fast Draft` — prototypes and fit checks
 - `Soroush PLA - Mechanical Strong` — brackets, mounts, stronger functional parts
-
-## Recommended install method
-
-In PrusaSlicer:
-
-```text
-File > Import > Import Config Bundle
-```
-
-Then select:
-
-```text
-dist/Soroush_Ender3V3SE_PrusaSlicer_2.9.6_config_bundle.ini
-```
-
-## Optional direct install on Linux
-
-```bash
-./scripts/install-to-prusaslicer.sh
-```
-
-The script detects both common PrusaSlicer config locations:
-
-- Native package: `~/.config/PrusaSlicer`
-- Flatpak: `~/.var/app/com.prusa3d.PrusaSlicer/config/PrusaSlicer`
 
 ## Horn_L / mask recommendation
 
